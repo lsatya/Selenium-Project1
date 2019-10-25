@@ -1,89 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27358" started-at="2018-12-18T18:16:26Z" finished-at="2018-12-18T18:16:53Z">
+  <suite name="Sample test Suite" duration-ms="151270" started-at="2019-10-25T06:26:59Z" finished-at="2019-10-25T06:29:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27358" started-at="2018-12-18T18:16:26Z" finished-at="2018-12-18T18:16:53Z">
-      <class name="com.training.regression.tests.LoginExcelTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2018-12-18T23:46:26Z" finished-at="2018-12-18T23:46:26Z">
+    <test name="Sample test" duration-ms="151270" started-at="2019-10-25T06:26:59Z" finished-at="2019-10-25T06:29:31Z">
+      <class name="com.training.sanity.tests.RealEstateRETC_018">
+        <test-method status="PASS" signature="setUpBeforeClass1()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_018@4563e9ab]" name="setUpBeforeClass1" is-config="true" duration-ms="0" started-at="2019-10-25T11:59:02Z" finished-at="2019-10-25T11:59:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="5796" started-at="2018-12-18T23:46:27Z" finished-at="2018-12-18T23:46:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="loginDBTest" duration-ms="2700" started-at="2018-12-18T23:46:32Z" data-provider="excel-inputs" finished-at="2018-12-18T23:46:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="tearDown" is-config="true" duration-ms="788" started-at="2018-12-18T23:46:35Z" finished-at="2018-12-18T23:46:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="4885" started-at="2018-12-18T23:46:36Z" finished-at="2018-12-18T23:46:41Z">
+        </test-method> <!-- setUpBeforeClass1 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_018@4563e9ab]" name="setUp" is-config="true" duration-ms="15834" started-at="2019-10-25T11:59:02Z" finished-at="2019-10-25T11:59:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="loginDBTest" duration-ms="3104" started-at="2018-12-18T23:46:41Z" data-provider="excel-inputs" finished-at="2018-12-18T23:46:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[naveen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[testing@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_018@4563e9ab]" name="validLoginTest" duration-ms="11093" started-at="2019-10-25T11:59:18Z" finished-at="2019-10-25T11:59:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="tearDown" is-config="true" duration-ms="767" started-at="2018-12-18T23:46:44Z" finished-at="2018-12-18T23:46:45Z">
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_018@4563e9ab]" name="tearDown" is-config="true" duration-ms="1859" started-at="2019-10-25T11:59:29Z" finished-at="2019-10-25T11:59:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="setUp" is-config="true" duration-ms="5306" started-at="2018-12-18T23:46:45Z" finished-at="2018-12-18T23:46:50Z">
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_018 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_016">
+        <test-method status="PASS" signature="setUpBeforeClass1()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_016@71c7db30]" name="setUpBeforeClass1" is-config="true" duration-ms="55" started-at="2019-10-25T11:56:59Z" finished-at="2019-10-25T11:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass1 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_016@71c7db30]" name="setUp" is-config="true" duration-ms="30522" started-at="2019-10-25T11:56:59Z" finished-at="2019-10-25T11:57:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String)[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="loginDBTest" duration-ms="2595" started-at="2018-12-18T23:46:50Z" data-provider="excel-inputs" finished-at="2018-12-18T23:46:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[delete]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[delete]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_016@71c7db30]" name="validLoginTest" duration-ms="22315" started-at="2019-10-25T11:57:30Z" finished-at="2019-10-25T11:57:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginDBTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.LoginExcelTest@8bd1b6a]" name="tearDown" is-config="true" duration-ms="795" started-at="2018-12-18T23:46:53Z" finished-at="2018-12-18T23:46:53Z">
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_016@71c7db30]" name="tearDown" is-config="true" duration-ms="1778" started-at="2019-10-25T11:57:52Z" finished-at="2019-10-25T11:57:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.regression.tests.LoginExcelTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_016 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_017">
+        <test-method status="PASS" signature="setUpBeforeClass1()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_017@19bb089b]" name="setUpBeforeClass1" is-config="true" duration-ms="0" started-at="2019-10-25T11:57:54Z" finished-at="2019-10-25T11:57:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_017@19bb089b]" name="beforeMethod" is-config="true" duration-ms="16125" started-at="2019-10-25T11:57:54Z" finished-at="2019-10-25T11:58:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addNewPost()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_017@19bb089b]" name="addNewPost" duration-ms="49884" started-at="2019-10-25T11:58:10Z" finished-at="2019-10-25T11:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPost -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RealEstateRETC_017@19bb089b]" name="tearDown" is-config="true" duration-ms="1780" started-at="2019-10-25T11:59:00Z" finished-at="2019-10-25T11:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_017 -->
+    </test> <!-- Sample test -->
+  </suite> <!-- Sample test Suite -->
 </testng-results>

@@ -11,7 +11,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.training.generics.ScreenShot;
-import com.training.pom.LoginPOM;
+import com.training.pom.RealEstateLoginPOM;
+import com.training.pom.MainPostPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
@@ -19,7 +20,8 @@ public class LoginTests {
 
 	private WebDriver driver;
 	private String baseUrl;
-	private LoginPOM loginPOM;
+	private RealEstateLoginPOM loginPOM;
+	private MainPostPOM loginPOM1;
 	private static Properties properties;
 	private ScreenShot screenShot;
 
@@ -33,7 +35,7 @@ public class LoginTests {
 	@BeforeMethod
 	public void setUp() throws Exception {
 		driver = DriverFactory.getDriver(DriverNames.CHROME);
-		loginPOM = new LoginPOM(driver); 
+		loginPOM = new RealEstateLoginPOM(driver); 
 		baseUrl = properties.getProperty("baseURL");
 		screenShot = new ScreenShot(driver); 
 		// open the browser 

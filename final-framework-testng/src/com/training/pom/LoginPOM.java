@@ -1,5 +1,10 @@
 package com.training.pom;
 
+
+
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,6 +31,18 @@ public class LoginPOM {
 		this.userName.clear();
 		this.userName.sendKeys(userName);
 	}
+	
+	public void selectCode(String input, String xpath) {
+		List<WebElement> sample = driver.findElements(By.xpath(xpath));
+		int count=sample.size();
+		
+		for (int i=0;i<count;i++){
+			if(sample.equals(input)){
+				sample.get(i).click();
+			}
+		}
+		
+			}
 	
 	public void sendPassword(String password) {
 		this.password.clear(); 
