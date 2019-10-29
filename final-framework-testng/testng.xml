@@ -7,6 +7,9 @@
          <class name = "com.training.sanity.tests.RealEstateRETC_016" />
           <class name = "com.training.sanity.tests.RealEstateRETC_017" />
           <class name = "com.training.sanity.tests.RealEstateRETC_018" />
+          <class name = "com.training.sanity.tests.RealEstateRETC_046" />
+          <class name = "com.training.sanity.tests.RealEstateRETC_047" />
+          <class name = "com.training.sanity.tests.RealEstateRETC_048" />
        
       </classes>
    </test>
