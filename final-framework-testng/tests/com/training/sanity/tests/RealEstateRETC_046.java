@@ -46,7 +46,7 @@ public class RealEstateRETC_046 {
 		driver.get(baseUrl);
 	  }
 	
-  @Test
+  //@Test
   public void enterIntoBlog() throws InterruptedException {
 	  loginPOM.sendUserName("manipalglobal");
 		loginPOM.sendPassword("manipalglobal@123");

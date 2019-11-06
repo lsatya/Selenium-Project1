@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
-  <test name="Sample test">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
       <class name="com.training.sanity.tests.RealEstateRETC_016"/>
-      <class name="com.training.sanity.tests.RealEstateRETC_017"/>
-      <class name="com.training.sanity.tests.RealEstateRETC_018"/>
-      <class name="com.training.sanity.tests.RealEstateRETC_046"/>
-      <class name="com.training.sanity.tests.RealEstateRETC_047"/>
-      <class name="com.training.sanity.tests.RealEstateRETC_048"/>
     </classes>
-  </test> <!-- Sample test -->
-</suite> <!-- Failed suite [Sample test Suite] -->
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.RealEstateRETC_016">
+        <methods>
+          <include name="validLoginTest"/>
+          <include name="setUpBeforeClass1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_016 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

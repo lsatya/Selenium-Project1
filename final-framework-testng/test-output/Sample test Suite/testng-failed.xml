@@ -9,6 +9,76 @@
       <class name="com.training.sanity.tests.RealEstateRETC_046"/>
       <class name="com.training.sanity.tests.RealEstateRETC_047"/>
       <class name="com.training.sanity.tests.RealEstateRETC_048"/>
+      <class name="com.training.sanity.tests.RealEstateRETC_076"/>
+      <class name="com.training.sanity.tests.RealEstateRETC_077"/>
+      <class name="com.training.sanity.tests.RealEstateRETC_078"/>
     </classes>
   </test> <!-- Sample test -->
+  <test name="Sample test(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.RealEstateRETC_016">
+        <methods>
+          <include name="validLoginTest"/>
+          <include name="setUpBeforeClass1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_016 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_017">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="setUpBeforeClass1"/>
+          <include name="addNewPost"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_017 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_047">
+        <methods>
+          <include name="OpsOnproperties"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClassRETC_047"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_047 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_046">
+        <methods>
+          <include name="setUp"/>
+          <include name="enterIntoComments"/>
+          <include name="setUpBeforeClassRETC_046"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_046 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_077">
+        <methods>
+          <include name="validLoginTest"/>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass1"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_077 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_078">
+        <methods>
+          <include name="setUp"/>
+          <include name="validLoginTest"/>
+          <include name="setUpBeforeClass1"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_078 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_048">
+        <methods>
+          <include name="setUp"/>
+          <include name="restorePost"/>
+          <include name="setUpBeforeClassRETC_048"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_048 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_018">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUpBeforeClass1"/>
+          <include name="validLoginTest"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_018 -->
+      <class name="com.training.sanity.tests.RealEstateRETC_076">
+        <methods>
+          <include name="setUpBeforeClass1"/>
+          <include name="validLoginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.RealEstateRETC_076 -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
 </suite> <!-- Failed suite [Sample test Suite] -->
